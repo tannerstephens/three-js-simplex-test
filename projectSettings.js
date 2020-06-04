@@ -1,4 +1,4 @@
 module.exports = {
-  title: 'yarnTemplate',
-  repo: ''
+  title: 'PlanetJS',
+  repo: 'https://github.com/tannerstephens/planet-js'
 };
