@@ -40,7 +40,7 @@ class App {
     const sphereGeometry = new THREE.SphereGeometry(30, 100, 100);
 
     const generateCanvasTexture = () => {
-      const background = new THREE.TextureLoader().load('/assets/stars.jpg');
+      const background = new THREE.TextureLoader().load('./assets/stars.jpg');
       this.scene.background = background;
 
       const simplex = new SimplexNoise(Math.random());
