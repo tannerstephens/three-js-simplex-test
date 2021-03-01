@@ -16,7 +16,7 @@
   },
   "dependencies": {
     "simplex-noise": "^2.4.0",
-    "three": "^0.117.1"
+    "three": "^0.125.0"
   },
   "scripts": {
     "production": "webpack --mode production --config webpack.config.prod.js",
